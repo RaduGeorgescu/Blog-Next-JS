@@ -6,7 +6,7 @@ const Posts = ({ postsFromApi }) => {
 
   return (
     <div className={styles.main}>
-      <div className='pb-20 sm:mx-2 md:mx-20  bg-accent1'>
+      <div className='pb-20 sm:mx-2 md:mx-20 bg-accent1'>
         <div className={styles.post}>
         </div>
         {postsFromApi.map((post, key) => {
