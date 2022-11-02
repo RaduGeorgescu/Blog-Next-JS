@@ -1,0 +1,36 @@
+.main {
+  @apply pb-8 min-h-screen flex flex-col justify-center items-center;
+}
+.post {
+  @apply my-8 mx-auto max-w-full px-4;
+}
+.post h1 {
+  @apply pb-10 text-6xl leading-tight flex my-8 mx-auto max-w-full;
+}
+.post h2 {
+  @apply mb-2 font-semibold text-2xl;
+}
+.post hr {
+  @apply bg-blackCustom mt-2 mb-2 border-solid	block ml-auto mr-auto border border-gray-600;
+}
+.post p {
+  @apply text-justify;
+}
+.postIndividual,
+.createPost {
+  @apply h-screen my-8 mx-auto max-w-full px-4;
+}
+.logo {
+  @apply mx-2 my-0 py-0;
+}
+.logo:hover {
+  @apply text-accent2 cursor-pointer;
+}
+.editForm {
+}
+.editInput {
+  @apply resize-none bg-white border-neutral-900 my-4 mx-14 px-4;
+}
+.date {
+  @apply text-gray-600 text-xs text-end mt-5 mr-0 bottom-0 right-0;
+}
