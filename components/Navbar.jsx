@@ -17,7 +17,7 @@ const Navbar = () => {
   }
   return (
     <header className="bg-main1 text-lg py-6 sticky top-0 z-50 flex flex-row justify-between px-3">
-      <div className=" flex flex-row font-semibold">
+      <div className="flex flex-row font-semibold ">
         <a
           href="https://github.com/RaduGeorgescu"
           target="Github"
@@ -39,7 +39,7 @@ const Navbar = () => {
           </span>
         </a>
       </div>
-      <div className="font-bold">
+      <div className="font-bold invisible md:visible">
         <Link href="/">
           <a>
             <img src="TitlePic.png" className="h-16" alt="Radu's Blog" />

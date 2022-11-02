@@ -6,7 +6,7 @@ const SearchPosts = ({ postsFromApi }) => {
 
   return (
     <div className={styles.main}>
-      <div className='pb-20 mx-20 bg-accent1'>
+      <div className='pb-20 mx-20 sm:mx-2 bg-accent1'>
         <div className="text-3xl text-bold mt-5 ml-4">
           <h1>
             Results:

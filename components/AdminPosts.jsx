@@ -9,7 +9,6 @@ const AdminPost = ({ postsFromApi, domain }) => {
     title: '',
     content: '',
   })
-  // const domain = process.env.DOMAIN;
   const createPost = async (event) => {
     if (form.title === '' || form.content === '') {
       event.preventDefault()

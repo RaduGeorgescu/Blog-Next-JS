@@ -43,17 +43,14 @@ const Admin = ({ data: posts, cookie, domain }) => {
   });
 
   const refreshData = () => {
-    // debugger;
     setIsLogged(true);
     router.reload();
   };
   const checkAuth = async (e) => {
     try {
       e.preventDefault();
-      // debugger;
       await fetch(`${domain}/api/auth/login`, {
         method: "POST",
-        // mode: "no-cors",
         headers: {
           "Content-Type": "application/json",
         },
