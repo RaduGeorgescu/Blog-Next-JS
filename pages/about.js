@@ -2,7 +2,7 @@ import Head from "next/head";
 
 const about = () => {
   return (
-    <div className="px-8 bg-accent1">
+    <div className="px-8 md:mx-20 bg-accent1">
       <Head>
         <title>About Me</title>
         <meta name="description" content="About Me" />

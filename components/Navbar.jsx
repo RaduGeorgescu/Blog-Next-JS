@@ -3,6 +3,7 @@ import { ImGithub, ImLinkedin } from "react-icons/im";
 import Link from "next/link";
 import { useState } from "react";
 import { useRouter } from "next/router";
+import Image from "next/image";
 
 const Navbar = () => {
   const router = useRouter()
@@ -17,7 +18,7 @@ const Navbar = () => {
   }
   return (
     <header className="bg-main1 text-lg py-6 sticky top-0 z-50 flex flex-row justify-between px-3">
-      <div className="flex flex-row font-semibold ">
+      <div className="flex flex-row w-1/3 font-semibold ">
         <a
           href="https://github.com/RaduGeorgescu"
           target="Github"
@@ -39,15 +40,15 @@ const Navbar = () => {
           </span>
         </a>
       </div>
-      <div className="font-bold invisible md:visible">
+      <div className="font-bold invisible md:visible flex w-1/3">
         <Link href="/">
           <a>
-            <img src="TitlePic.png" className="h-16" alt="Radu's Blog" />
+            <Image width="350" height="64" src="/TitlePic.png" className="h-16" alt="Radu's Blog" />
           </a>
         </Link>
       </div>
-      <div className="font-semibold w-80 duration-500 ">
-        <div className="relative">
+      <div className="font-semibold duration-500 justify-end ">
+        <div className="relative w-80 lg:w-auto md:w-auto xl:w-80">
           <div className="flex absolute inset-y-0 left-0 items-center pl-3 pointer-events-none">
           </div>
           <form>

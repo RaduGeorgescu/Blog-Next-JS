@@ -2,5 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 html {
-  @apply bg-accent1;
+  min-width: 425px;
+  @apply bg-accent1 overflow-x-hidden;
 }
